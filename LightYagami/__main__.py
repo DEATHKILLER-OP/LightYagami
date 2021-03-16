@@ -51,7 +51,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey You {},You Are In Light's Pm
+Hey You {},You Are In 𓆩‎ᗪℯ𝓿ꪱ͛l𓆪's Pm
 
 Nice To Meet You Dude....
 
@@ -61,10 +61,10 @@ Here You Can See My Power By Writing /help.
 """
 
 HELP_STRINGS = """
-[Light](https://telegra.ph/file/707a516dfc688ebb8c423.mp4) Is Here:
+[𓆩‎ᗪℯ𝓿ꪱ͛l𓆪](https://telegra.ph/file/ba37d0df9b9f0fb505e76.jpg) Is Here:
 Here You Can See My Power With These Power 
 I Will Manage Your Group
-And Provide Justice To Your Group
+And Provide Justice To Your Group 😈
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /settings: 
@@ -74,8 +74,8 @@ And Provide Justice To Your Group
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/4911c03742b50ad0d8bf7.jpg"
-LIGHT_IMG = "https://telegra.ph/file/5580465a8e3c4d51d5c3c.mp4"
+SAITAMA_IMG = "https://telegra.ph/file/ba37d0df9b9f0fb505e76.jpg"
+LIGHT_IMG = "https://telegra.ph/file/ba37d0df9b9f0fb505e76.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 """
@@ -195,28 +195,28 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="⚖️Add Kira to your group⚖️",
+                            text="😈Add 𓆩‎ᗪℯ𝓿ꪱ͛l𓆪 to your group😈",
                             url="t.me/{}?startgroup=true".format(context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="📢 Support Group",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             text="👾 Support",
+                             url=f"https://t.me/{X_OP_ROHAN_X}"),
                          InlineKeyboardButton(
-                             text="🔔 Updates Of Light 🔔",
-                             url="https://t.me/seedofbots")
+                             text="👾 Updates Of 𓆩‎ᗪℯ𝓿ꪱ͛l𓆪 👾",
+                             url="https://t.me/X_OP_ROHAN_X")
                      ],
                     
                     [
                          InlineKeyboardButton(
-                             text="❤My God❤",
-                             url="https://t.me/death_note_light_yagami"),
+                             text="😎 MY GOD 😎",
+                             url="https://t.me/X_OP_ROHAN_X"),
                          InlineKeyboardButton(
-                             text="⌨Repo🖱",
-                             url="https://github.com/YashMorya/LightYagami")
+                             text="⌨ REPO 🖱",
+                             url="https://t.me/X_OP_ROHAN_X")
                      ],[
                         InlineKeyboardButton(
-                            text="❗❔Help And Commands❔",
+                            text="👾Help And Commands👾",
                             url="t.me/{}?start=help".format(context.bot.username))
                     ]]))
     else:
