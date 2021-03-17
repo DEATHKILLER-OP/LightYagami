@@ -26,7 +26,7 @@ class Config(object):
 
     #RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'something://somewhat:user@hosturl:port/databasename'  # needed for any database modules
-    REDIS_URI = " " # Get One From RedisLabs.com Make Role And Database Make Sure that the Format Of Url Should be: "redis://Username:pass@endpoint/dbname"
+    REDIS_URI = " " # Get One From RedisLabs.com Make Role And Database Make Sure that the Format Of Url Should be: "redis.com Redis-7gsC5K(v6.0.8)"
     LOAD = []
     NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
     WEBHOOK = False
